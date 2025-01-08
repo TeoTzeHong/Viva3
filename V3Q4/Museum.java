@@ -8,7 +8,7 @@ import java.io.*;
 import java.util.*;
 
 public class Museum {
-    private final List<Exhibit> exhibits = new ArrayList<>();
+    private List<Exhibit> exhibits = new ArrayList<>();
 
     public void loadExhibits(String filename) {
         try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
