@@ -9,11 +9,11 @@ package V3Q4;
  * @author teotz
  */
 public class Exhibit {
-    private final  String title;
-    private final  String artist;
-    private final  int year;
-    private final  String type;
-    private final  String description;
+    private String title;
+    private String artist;
+    private int year;
+    private String type;
+    private String description;
 
     public Exhibit(String title, String artist, int year, String type, String description) {
         this.title = title;
