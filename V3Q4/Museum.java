@@ -40,7 +40,7 @@ public class Museum {
 
     public void searchExhibitsByType(String type) {
     for (Exhibit exhibit : exhibits) {
-        if (exhibit.getType().equals(type)) { // Direct comparison using the getter
+        if (exhibit.getType().equals(type)) { 
             System.out.println(exhibit.getDetails());
         }
     }
@@ -48,7 +48,7 @@ public class Museum {
 
     public void searchExhibitsByYear(int year) {
     for (Exhibit exhibit : exhibits) {
-        if (exhibit.getYear() == year) { // Compare integers directly
+        if (exhibit.getYear() == year) { 
             System.out.println(exhibit.getDetails());
         }
     }
