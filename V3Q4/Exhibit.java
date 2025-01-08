@@ -15,7 +15,6 @@ public class Exhibit {
     private final  String type;
     private final  String description;
 
-    // Constructor
     public Exhibit(String title, String artist, int year, String type, String description) {
         this.title = title;
         this.artist = artist;
@@ -24,7 +23,6 @@ public class Exhibit {
         this.description = description;
     }
 
-    // Get details of the exhibit
     public String getDetails() {
         return "Title: " + title + "\n" +
                "Artist: " + artist + "\n" +
@@ -33,7 +31,6 @@ public class Exhibit {
                "Description: " + description + "\n";
     }
 
-    // Getters
     public String getArtist() {
         return artist;
     }
